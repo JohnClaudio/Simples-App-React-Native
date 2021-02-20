@@ -20,13 +20,12 @@ export default function App() {
             <Stack.Screen
               name="login"
               component={Page_Login}
-    
             />
-
+    
             <Stack.Screen
               name="Home"
               component={Page_Home}
-              options={{ title: 'Welcome back!' }}
+              options={{ title: 'Produtos'}}
             />
           </Stack.Navigator>
         </NavigationContainer>
