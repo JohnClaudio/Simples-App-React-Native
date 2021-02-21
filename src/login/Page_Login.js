@@ -23,7 +23,7 @@ const DismissKeyboard = ({ children }) => (
 
 export default function Page_Login(props) {
 
-  const autenticacao = () => {
+  const Togo = () => {
       props.navigation.navigate('Home');
 
   };
@@ -55,7 +55,7 @@ export default function Page_Login(props) {
               />
             </View>
 
-            <TouchableOpacity style={css.btn} onPress={autenticacao}>
+            <TouchableOpacity style={css.btn} onPress={Togo}>
               <Text style={css.texto}>entrar</Text>
             </TouchableOpacity>
           </View>
